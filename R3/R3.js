@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    // Creamos una variable llamada videoSrc
     var $videoSrc;
     //Llamamos el icono con la clase video-btn y activamos la funcion cuando
     //hacemos click
