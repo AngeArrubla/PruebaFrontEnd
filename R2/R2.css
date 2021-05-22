@@ -1,29 +1,32 @@
+/* Css general */
 table {
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   border: collapse;
   color: gray;
 }
-
+/* responsive nativo para la tabla */
 .main {
   overflow-x: auto;
 }
-
+/* Coloreamos las filas pares */
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-
+/* Bordes y padding */
 td,
 th {
   border: 1px solid #dddddd;
   padding-left: 10px;
 }
-
+/* Padding para las celdas */
 td {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
+/* Estilos para el contenedor de los th, de esta manera logramos que el icono
+  y el texto queden alineados y centrados
+*/
 .container {
   display: flex;
   justify-content: space-between;
